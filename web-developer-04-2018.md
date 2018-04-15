@@ -45,7 +45,7 @@ Example: When `"Animal"` is selected, the second select tag should only contain 
 
 You may use `jQuery`.
 
-### 1.5 JS - Delete an Image
+### 1.6 JS - Delete an Image
 An image gallery has a list of images with a remove button labeled `X`. Write a script (jQuery) that will delete the image in the gallery when the `X` button is clicked.
 
 ```html
