@@ -1,6 +1,6 @@
 # Web Developer
 
-This is your question sheet.  Place your answers in the Google Form sent to you.
+This is your question sheet.  Place your answers in the Google Form we sent you.
 
 ## Part 1 : Front End
 
