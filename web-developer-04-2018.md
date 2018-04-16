@@ -142,15 +142,15 @@ For example, for associative array `["Ripe Mango" => "Yellow", "Strawberry" => "
 
 ```php
 <?php
-function groupByColor(fruits) {
+function groupByColor($fruits) {
 	// @todo: do something with the `fruits`
 	return 'good luck';
 }
 
-var fruits = ["Ripe Mango" => "Yellow", "Strawberry" => "Red", "Lemon" => "Yellow"];
-var grouped = groupedByColor(fruits);
+$fruits = ["Ripe Mango" => "Yellow", "Strawberry" => "Red", "Lemon" => "Yellow"];
+$grouped = groupedByColor(fruits);
 
-// @todo: `grouped` should be what is expected.
+// @todo: `$grouped` should be what is expected.
 ```
 
 
