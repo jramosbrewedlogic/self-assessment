@@ -92,12 +92,12 @@ array(
 
 Implement the function `getFruits` method, which accepts color as a string parameter and returns all fruits for that color in JSON format _(see example below)_.
 
-For example, the call `$fruitcolors>getFruits("red");` should return:
+For example, the call `$fruitcolors->getFruits("red");` should return:
 ```json
 { "color":"red", "fruits": ["apple", "strawberry"]}
 ```
 
-If a call doesn’t have fruits for that `$fruitcolors>getFruits("violet");` color, it should return:
+If a call doesn’t have fruits for that `$fruitcolors->getFruits("violet");` color, it should return:
 ```json
 { "color":"violet", "fruits":[] }
 ```
@@ -131,7 +131,7 @@ echo $fruitcolor->getFruits("violet");
 
 ```
 
-### 2.3 JS - Group by Color
+### 2.3 PHP - Group by Color
 
 Create a `groupByColor` function that:
 
@@ -140,7 +140,8 @@ Create a `groupByColor` function that:
 
 For example, for associative array `["Ripe Mango" => "Yellow", "Strawberry" => "Red", "Lemon" => "Yellow"]` the `groupByColor` function should return `["Yellow" => ["Ripe Mango", "Lemon"], "Red" => ["Strawberry"]]`.
 
-```javascript
+```php
+<?php
 function groupByColor(fruits) {
 	// @todo: do something with the `fruits`
 	return 'good luck';
