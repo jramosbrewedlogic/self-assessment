@@ -148,7 +148,7 @@ function groupByColor($fruits) {
 }
 
 $fruits = ["Ripe Mango" => "Yellow", "Strawberry" => "Red", "Lemon" => "Yellow"];
-$grouped = groupedByColor(fruits);
+$grouped = groupedByColor($fruits);
 
 // @todo: `$grouped` should be what is expected.
 ```
