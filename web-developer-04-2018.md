@@ -5,9 +5,9 @@ This is your question sheet.  Place your answers in the Google Form we sent you.
 ## Part 1 : Front End
 
 ### 1.1 Basic CSS
-Provide an HTML/CSS that can explain the difference between an `id` and a `class`.
+* Provide an HTML/CSS that can explain the difference between an `id` and a `class`.
 
-In CSS, How would you select `<div data-id="2">Dog</div>` using the data attribute?
+* In CSS, How would you select `<div data-id="2">Dog</div>` using the data attribute?
 
 ### 1.2 Format Date String
 Complete the javascript function below that will format a string from `M/D/YYYY` to a formatted date string `YYYYMMDD`.
