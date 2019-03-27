@@ -5,9 +5,9 @@ This is your question sheet.  Place your answers in the Google Form we sent you.
 ## Part 1 : Front End
 
 ### 1.1 Basic CSS
-* Provide an HTML/CSS that can explain the difference between an `id` and a `class`.
+a) Provide an HTML/CSS that can explain the difference between an `id` and a `class`.
 
-* In CSS, How would you select `<div data-id="2">Dog</div>` using the data attribute?
+b) In CSS, How would you select `<div data-id="2">Dog</div>` using the data attribute?
 
 ### 1.2 Format Date String
 Complete the javascript function below that will format a string from `M/D/YYYY` to a formatted date string `YYYYMMDD`.
@@ -19,6 +19,7 @@ function formatDate(userDateString) {
 }
 
 console.log(formatDate("12/31/2014")); // should return: 20141231
+console.log(formatDate("1/9/2010")); // should return: 20100109
 ```
 
 ### 1.3 CSS Selectors
