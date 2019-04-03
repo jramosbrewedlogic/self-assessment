@@ -122,7 +122,7 @@ class FruitColor
 }
 
 $fruitcolor = new FruitColor(array(
-	"red" => array("apple", “strawberry”),
+	"red" => array("apple", "strawberry"),
 	"yellow" => array("lemon", "ripe mango")
 ));
 
